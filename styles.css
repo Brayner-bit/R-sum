@@ -1,0 +1,143 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0f7fa; /* Fondo azul claro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Encabezado */
+.header {
+    background-color: #00796b; /* Color verde azulado */
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    margin: 0;
+    color: #fff;
+}
+
+.header .subtitle {
+    font-size: 1.2em;
+    color: #b2dfdb; /* Color más claro para el subtítulo */
+    margin: 5px 0;
+}
+
+.contact-info {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #e0f2f1; /* Color claro para la información de contacto */
+}
+
+.contact-info a {
+    color: #b2dfdb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.whatsapp-link {
+    color: #25d366; /* Color verde de WhatsApp */
+    font-weight: 500;
+}
+
+.whatsapp-link i {
+    margin-right: 5px;
+}
+
+.email-link {
+    color: #b2dfdb;
+}
+
+.linkedin-link {
+    color: #0a66c2; /* Color azul de LinkedIn */
+}
+
+/* Secciones */
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8em;
+    color: #00796b; /* Color verde azulado */
+    border-bottom: 2px solid #00796b;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.section ul li {
+    margin-bottom: 10px;
+}
+
+.section .job {
+    margin-bottom: 20px;
+}
+
+.section .job h3 {
+    font-size: 1.2em;
+    color: #00796b; /* Color verde azulado */
+    margin: 0;
+}
+
+.section .job .date {
+    font-size: 0.9em;
+    color: #777;
+    margin: 5px 0;
+}
+
+.section .skills, .section .technical-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.section .skills li, .section .technical-skills li {
+    background-color: #00796b; /* Color verde azulado */
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2em;
+    }
+
+    .section h2 {
+        font-size: 1.5em;
+    }
+
+    .section .skills, .section .technical-skills {
+        flex-direction: column;
+    }
+}
